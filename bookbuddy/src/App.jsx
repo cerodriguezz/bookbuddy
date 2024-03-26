@@ -5,13 +5,8 @@ import { navigation, books, login, register, singlebook, account } from './compo
 function App() {
   const [count, setCount] = useState(0)
 
-  return (
-    <>
-    <navigation />
 
-  
-    </>
-  )
+
 }
 
 export default App
