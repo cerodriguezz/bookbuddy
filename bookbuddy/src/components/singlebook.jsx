@@ -1,7 +1,9 @@
-export default function singlebook () {
-    return (
-        <div> 
-            singlebook
-        </div>
-    )
+import { useOutletContext, useParams } from "react-router-dom";
+
+const SingleBook = () => {
+    const { bookId } = useParams()
+    const {values: { books }} = useOutletContext()
+    const book = books.find((book) => bookId === book.id)
 }
+
+export default SingleBook
