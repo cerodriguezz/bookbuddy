@@ -6,7 +6,6 @@ export default function Navigation () {
             <Link to = '/account'>Account</Link>
             <Link to = '/login'>Login</Link>
             <Link to = '/register'>Register</Link>
-            <Link to = 'singlebook'>Singlebook</Link>
         </div>
     )
 }

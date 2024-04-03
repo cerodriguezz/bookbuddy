@@ -21,8 +21,8 @@ const Home = () => {
   // const setterFunction = state1[1] 
   
   const contextObj = {
-    setters: { setToken, setUser, setBooks, setSingleBook, setFirstname, setLastname, setEmail, setPassword},
-    values: { token, user, books, singleBook, firstname, lastname, email, password}
+    setters: { setToken, setUser, setBooks, setSingleBook, setFirstname, setLastname, setEmail, setPassword, setReservations},
+    values: { token, user, books, singleBook, firstname, lastname, email, password, reservations}
   }
 
   return (
